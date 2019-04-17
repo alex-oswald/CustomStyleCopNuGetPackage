@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>CustomStyleCopNuGetPackage</id>
+    <version>1.0.0-beta1</version>
+    <description>NuGet package with custom StyleCop.Analyzers ruleset's.</description>
+    <authors>Alex Oswald</authors>
+    <developmentDependency>true</developmentDependency>
+    <dependencies>
+      <dependency id="StyleCop.Analyzers" version="[1.1.1-rc.114]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="stylecop.json" target="" />
+    <file src="CustomStyleCopNuGetPackage.ruleset" target="" />
+    <file src="CustomStyleCopNuGetPackage.props" target="build" />
+  </files>
+</package>
