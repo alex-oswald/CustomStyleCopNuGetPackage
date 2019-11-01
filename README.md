@@ -51,7 +51,9 @@ Build Action: C# analyzer additional file
 
 Make sure you are using the newer `PackageReference` style. ([reference](https://docs.microsoft.com/en-us/nuget/consume-packages/package-references-in-project-files))
 
-You can use the below code to pack your builds.
+If your package is .NET Standard you can have it pack on build in `Project Properties > Package > Generate NuGet package on build`.
+
+Or you can use the below code to pack your builds.
 
 _Download [nuget.exe](https://www.nuget.org/downloads) and place in C:\Windows or have it in your PATH environmental variable._
 
